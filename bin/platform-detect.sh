@@ -1,6 +1,6 @@
 #!/bin/sh -e
 
-. /opt/kdeos/bin/khd-functions
+. /opt/alpha/bin/khd-functions
 
 usage () {
     echo "Usage: $0 [-h|--help|-v|--verbose]"

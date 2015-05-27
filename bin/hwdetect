@@ -1,16 +1,16 @@
 #!/bin/bash
 
 # configs
-. /opt/kdeos/bin/khd-functions
-. /etc/kdeos-hwdetect.conf
+. /opt/alpha/bin/alphahd-functions
+. /etc/alpha-hwdetect.conf
 
-# needed hooks (located in /opt/kdeos/hooks)
+# needed hooks (located in /opt/alpha/hooks)
 LOAD_HOOKS="hwdetect_1_base hwdetect_2_platform hwdetect_3_quirks hwdetect_5_network hwdetect_6_alsa hwdetect_7_graphics"
 
 # load hooks
 for hook in ${LOAD_HOOKS}
 do
-	. /opt/kdeos/hooks/${hook}
+	. /opt/alpha/hooks/${hook}
 done
 
 printhl "Inspecting hardware"
