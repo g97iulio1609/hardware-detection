@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # configs
-. /opt/alpha/bin/alphahd-functions
+. /opt/alpha/bin/alpha-functions
 . /etc/alpha-hwdetect.conf
 
 # needed hooks (located in /opt/alpha/hooks)
